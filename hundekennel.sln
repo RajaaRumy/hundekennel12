@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hundekennel", "hundekennel\hundekennel.csproj", "{BE718044-6EA0-4E75-BBA1-A468546CD723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE718044-6EA0-4E75-BBA1-A468546CD723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE718044-6EA0-4E75-BBA1-A468546CD723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE718044-6EA0-4E75-BBA1-A468546CD723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE718044-6EA0-4E75-BBA1-A468546CD723}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA66B628-BD17-4FB6-97B2-1476163BD953}
+	EndGlobalSection
+EndGlobal

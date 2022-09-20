@@ -9,23 +9,23 @@ namespace hundekennel
 {
     public class Dog
     {
-        public int id;
-        public string pedigreeNumber;
-        public string name;
-        public int birthday;
-        public string koen;
-        public string color;
-        public string chipNumber;
-        public string fatherssPedigeeNumber;
-        public string motherssPedigeeNumber;
+        private  int id;
+        private string pedigreeNumber;
+        private string name;
+        private int birthday;
+        private string gender;
+        private string color;
+        private string chipNumber;
+        private string fatherssPedigeeNumber;
+        private string motherssPedigeeNumber;
 
-        public Dog(int id, string pedigreeNumber, string name, int birthday,string koen, string color, string chipNumber, string fatherssPedigeeNumber, string motherssPedigeeNumber)
+        public Dog(int id, string pedigreeNumber, string name, int birthday,string gender, string color, string chipNumber, string fatherssPedigeeNumber, string motherssPedigeeNumber)
         {
             this.id = id;
             this.pedigreeNumber = pedigreeNumber;   
             this.name = name;
             this.birthday = birthday;   
-            this.koen = koen;
+            this.gender = gender;
             this.color = color;
             this.chipNumber = chipNumber;
             this.fatherssPedigeeNumber = fatherssPedigeeNumber;
@@ -49,15 +49,15 @@ namespace hundekennel
             set { name = value; }
         }
 
-        public int BirthdayDate
+        public int Birthday
         {
             get { return birthday; }
             set { birthday = value; }
         }
-        public string Koen
+        public string Gender
         {
-            get { return koen; }
-            set { koen = value; }
+            get { return gender; }
+            set { gender = value; }
         }
         public string Color
         {
